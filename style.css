@@ -9,6 +9,8 @@
 html,
 body {
   font-family: 'Work Sans', sans-serif;
+  width: 98%;
+  margin: 0 auto;
 
 }
 
@@ -110,7 +112,48 @@ body {
 }
 
 /* features css end */
+/* loveAndenjoy css start */
+#loveAndenjoy {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: 1fr 1fr;
+}
 
+.loveAndenjoy-text {
+  display: grid;
+  grid-auto-columns: 1fr;
+  margin-bottom: 50px;
+}
+
+.loveAndenjoy-title-text h2 {
+  display: inline-block;
+  width: 200px;
+  border-left: 1px solid red;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.single-title-text {
+  padding: 16px;
+  background-color: #5323232b;
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+  margin-bottom: 20px;
+}
+
+.single-title-text h3 {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #131313;
+}
+
+
+.loveAndenjoy-img img {
+  width: 100%;
+  height: 100%;
+}
+
+/* loveAndenjoy css end */
 /* some-facts start */
 #some-facts {
   padding: 20px 0px;

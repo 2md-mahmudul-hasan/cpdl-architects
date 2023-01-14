@@ -191,3 +191,47 @@ img.image-gray {
 }
 
 /* sponsors css end */
+
+/* speciality */
+#speciality {
+  background-color: rgba(33, 34, 33, 0.422);
+  margin: 50px 0px;
+}
+
+.speciality-content {
+  max-width: 500px;
+  text-align: center;
+  margin: 50px auto;
+  padding: 50px 0px;
+}
+
+.speciality-subject {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.single-subject {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: space-between;
+}
+
+.single-subject img {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+.single-subject h2 {
+  color: #131313;
+  text-transform: uppercase;
+  margin: 10px 0px;
+}
+
+.single-subject p {
+  text-align: justify;
+  font-size: 18px;
+  font-weight: 200;
+}

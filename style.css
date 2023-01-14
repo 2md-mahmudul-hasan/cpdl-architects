@@ -1,8 +1,15 @@
 /* import google font */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Work+Sans:ital,wght@0,400;0,500;0,700;0,800;1,400&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
 body {
   font-family: 'Work Sans', sans-serif;
+
 }
 
 /* btn */
@@ -104,15 +111,66 @@ body {
 
 /* features css end */
 
+/* some-facts start */
+#some-facts {
+  padding: 20px 0px;
+}
+
+.some-facts-content {
+  max-width: 500px;
+  margin-left: 30px;
+}
+
+.some-facts-content h2 {
+  line-height: 50px;
+}
+
+.facts {
+  margin-top: 50px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.fact {
+  padding: 30px;
+  border: 1px solid #FF900E;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.fact:hover {
+  background-color: #131313;
+  color: #fff;
+  transform: rotate(45deg);
+  transition: all .5s ease;
+  border: 1px #fff;
+}
+
+.fact b {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+/* some-facts end */
+
 /* sponsors css start */
 #sponsors {
   text-align: center;
+}
+
+.sponsors-content {
+  max-width: 540px;
+  margin: 50px auto;
 }
 
 .sponsors-content h2 {
   font-size: 45px;
   font-weight: 700;
   color: #131313;
+  margin: 20px 0px;
 }
 
 .sponsors-container {

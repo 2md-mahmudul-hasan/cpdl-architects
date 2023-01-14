@@ -21,6 +21,18 @@ body {
   transition: background-color 2s, transform 2s;
 }
 
+.text-yellow {
+  color: #FF900E;
+}
+
+.text-black {
+  color: #131313;
+}
+
+.text-gray {
+  color: #727272
+}
+
 /* header css start */
 #header {
   background-color: rgba(255, 144, 14, 0.1);
@@ -71,3 +83,23 @@ body {
 }
 
 /* header css end */
+
+/* features css start */
+#features {
+  padding: 30px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.features-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 5px;
+}
+
+.features-content {
+  margin-left: 20px;
+}
+
+/* features css end */

@@ -109,7 +109,7 @@ body {
 
 /* features css start */
 #features {
-  padding: 30px 0px;
+  padding: 50px 140px;
   display: flex;
   align-items: center;
 }
@@ -125,9 +125,14 @@ body {
   margin-left: 20px;
 }
 
+.features-content p {
+  margin: 20px 0px;
+}
+
 /* features css end */
 /* loveAndenjoy css start */
 #loveAndenjoy {
+  padding: 50px 140px;
   display: grid;
   gap: 50px;
   grid-template-columns: 1fr 1fr;
@@ -137,6 +142,11 @@ body {
   display: grid;
   grid-auto-columns: 1fr;
   margin-bottom: 50px;
+}
+
+.loveAndenjoy-title-text {
+  margin-left: -50px;
+  margin-bottom: 20px;
 }
 
 .loveAndenjoy-title-text h2 {
@@ -149,9 +159,10 @@ body {
 
 .single-title-text {
   padding: 16px;
-  background-color: #5323232b;
+  background-color: #f8f8f82b;
   box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
   margin-bottom: 20px;
+  border-radius: 5px;
 }
 
 .single-title-text h3 {
@@ -165,6 +176,15 @@ body {
 .loveAndenjoy-img img {
   width: 100%;
   height: 100%;
+}
+
+button.btn-experience {
+  transform: translate(-50px, -50px);
+}
+
+.btn-experience-text {
+  font-weight: 700;
+  font-size: 40px;
 }
 
 /* loveAndenjoy css end */
@@ -310,6 +330,25 @@ img.image-gray {
     font-size: 40px;
     margin-bottom: 20px;
   }
+
+  #features {
+    flex-direction: column;
+  }
+
+  .features-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .features-content {
+    text-align: center;
+    margin: 20px 0px;
+  }
+
+  .btn {
+    margin-top: 20px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -323,3 +362,7 @@ img.image-gray {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {}
+
+.hide {
+  display: none;
+}
